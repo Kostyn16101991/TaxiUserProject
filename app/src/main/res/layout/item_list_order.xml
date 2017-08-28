@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/text_from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_from_order" />
+
+    <TextView
+        android:id="@+id/text_from_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_from"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_destination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_from_order"
+        android:text="@string/text_destination_order" />
+
+    <TextView
+        android:id="@+id/text_destination_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_destination"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/item_text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="23:21"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/item_btn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/text_destination_order"
+        android:layout_alignParentRight="true"
+        android:padding="8dp"
+        android:text="MORE"
+        android:textSize="16dp" />
+</RelativeLayout>

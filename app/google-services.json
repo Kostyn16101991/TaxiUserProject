@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "232820416343",
+    "firebase_url": "https://taxiuserproject.firebaseio.com",
+    "project_id": "taxiuserproject",
+    "storage_bucket": "taxiuserproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232820416343:android:82d71bd84b821d1a",
+        "android_client_info": {
+          "package_name": "com.example.vmm408.taxiuserproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232820416343-ii3qqt7h6o6jhkbepmotlom9utn97e5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vmm408.taxiuserproject",
+            "certificate_hash": "27fc4089ea1d06f07301372b438818861862e8a6"
+          }
+        },
+        {
+          "client_id": "232820416343-dre2fh7f5bggin8f8f4b9ggb114dto94.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2wGboAZWN5T5sy_1ZY94UKddKF8zr6vE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232820416343-dre2fh7f5bggin8f8f4b9ggb114dto94.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
